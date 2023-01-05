@@ -1,10 +1,20 @@
 .landing {
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100vh;
-    align-items: center;
     padding: 0 10%;
     overflow: hidden;
+}
+
+.landing .paragraphe p {}
+
+.landing .partiOne {
+    margin-top: 50px;
+}
+
+.landing .partiTwo {
+    display: flex;
 }
 
 .landing .text {
@@ -17,18 +27,11 @@
     font-size: 35px;
     letter-spacing: 5px;
     color: #3d535f;
-    animation: move-TopLine 1s;
 }
 
-@keyframes move-TopLine {
-    50% {
-        transform: translateX(-150px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
+.landing .topLine span {
+    color: #3d535f;
+    font-size: 35px;
 }
 
 .landing .topLine::after {
@@ -38,71 +41,35 @@
     width: 45px;
     bottom: 10px;
     background-color: rgb(0, 166, 255);
-    left: 125px;
+    left: 144px;
 }
 
-h1 {
+.landing h1 {
     display: block;
     font-size: 4em;
     font-weight: 900;
     color: #3d535f;
-    animation: move-h1 1s;
 }
 
-@keyframes move-h1 {
-    50% {
-        transform: translateX(150px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-span {
+.landing span {
     color: rgb(0, 166, 255);
     text-transform: capitalize;
 }
 
-P {
+.landing P {
     display: block;
     width: 90%;
     font-size: 1.2em;
     color: #3d535f;
-    animation: move-p 1s;
 }
 
-@keyframes move-p {
-    50% {
-        transform: translateX(-150px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-.btn {
+.landing .btn {
     width: 100%;
     position: relative;
     left: 150px;
-    animation: move-btn 1s linear;
 }
 
-@keyframes move-btn {
-    50% {
-        transform: translateX(150px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-button {
+.landing button {
     outline: none;
     border: none;
     cursor: pointer;
@@ -121,17 +88,17 @@ button:hover {
     background-color: rgb(0, 166, 255);
 }
 
-.image {
+.landing .image {
     position: relative;
     width: 50%;
 }
 
-img {
+.landing img {
     width: 100%;
     height: 100%;
 }
 
-.me {
+.landing .me {
     position: relative;
     top: 624px;
     z-index: 3;
@@ -140,15 +107,15 @@ img {
 
 @keyframes move-Admin {
     0% {
-        top: 624px;
+        top: -269px;
         right: 0;
     }
     50% {
-        top: 610px;
+        top: -259px;
         right: 20px;
     }
     100% {
-        top: 624px;
+        top: -269px;
         right: 0;
     }
 }
@@ -156,54 +123,142 @@ img {
 .blue {
     position: relative;
     z-index: 2;
-    bottom: 130px;
+    bottom: 1028px;
     animation: move-blue 4s linear infinite;
 }
 
 @keyframes move-blue {
     0% {
-        bottom: 130px;
+        bottom: 1028px;
         right: 0;
     }
     50% {
-        bottom: 120px;
+        bottom: 1018px;
         right: 10px;
     }
     100% {
-        bottom: 130px;
+        bottom: 1028px;
         right: 0;
     }
 }
 
 .cercel {
     position: relative;
-    right: 850px;
-    top: -356px;
+    right: 753px;
+    top: -1505px;
     z-index: -1;
-    width: 65%;
-    height: 65%;
+    width: 35%;
+    height: 11%;
     animation: move-cercel 4s linear infinite;
 }
 
 @keyframes move-cercel {
     50% {
-        right: 820px;
-        top: -366px;
+        right: 743px;
+        top: -1496px;
     }
 }
 
 .rombow {
     position: relative;
-    bottom: 1150px;
+    bottom: 1523px;
     right: 400px;
     z-index: -3;
     width: 50%;
-    height: 50%;
+    height: 15%;
     animation: move-rombow 4s linear infinite;
 }
 
 @keyframes move-rombow {
     50% {
-        bottom: 1120px;
+        bottom: 1513px;
+    }
+}
+
+@media(max-width:767px) {
+    .landing {
+        width: 100%;
+        height: 100%;
+        padding: 10px 10%;
+        margin: 10px 0px;
+    }
+    .landing .partiOne {
+        margin-top: 10px;
+    }
+    .landing .text {
+        width: 100%;
+    }
+    .landing .topLine {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .landing .titleH {
+        font-size: 25px;
+    }
+    .landing .topLine::after {
+        width: 30px;
+        bottom: 6px;
+        left: 80px;
+    }
+    .landing h1 {
+        font-size: 2em;
+        font-weight: 650;
+    }
+    .landing P {
+        display: block;
+        width: 90%;
+        font-size: 16px;
+    }
+    .landing button {
+        font-size: 18px;
+    }
+    .btn {
+        left: 0px;
+    }
+    @keyframes move-Admin {
+        0% {
+            top: -64px;
+            right: 80px;
+        }
+        50% {
+            top: -54px;
+            right: 60px;
+        }
+        100% {
+            top: -64px;
+            right: 80px;
+        }
+    }
+    .landing .me {
+        position: relative;
+        top: 0;
+        right: 88px;
+        z-index: -2;
+        width: 231%;
+        animation: move-Admin 6s linear infinite;
+    }
+    .blue {
+        position: relative;
+        z-index: -1;
+        top: -155px;
+        left: -234px;
+    }
+    @keyframes move-cercel {
+        50% {
+            right: 190px;
+            top: -456px;
+        }
+    }
+    .cercel {
+        position: relative;
+        top: -487px;
+        right: 219px;
+        z-index: -5;
+        width: 65%;
+        height: 15%;
+        animation: move-cercel 6s linear infinite;
+    }
+    .rombow {
+        display: none;
     }
 }
