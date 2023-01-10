@@ -7,8 +7,6 @@
     overflow: hidden;
 }
 
-.landing .paragraphe p {}
-
 .landing .partiOne {
     margin-top: 50px;
 }
@@ -198,7 +196,7 @@ button:hover {
     .landing .topLine::after {
         width: 30px;
         bottom: 6px;
-        left: 80px;
+        left: 115px;
     }
     .landing h1 {
         font-size: 2em;
@@ -212,8 +210,11 @@ button:hover {
     .landing button {
         font-size: 18px;
     }
-    .btn {
-        left: 0px;
+    .landing .btn {
+        width: 100%;
+        left: -11px;
+        top: -37px;
+        margin-top: 5px;
     }
     @keyframes move-Admin {
         0% {
