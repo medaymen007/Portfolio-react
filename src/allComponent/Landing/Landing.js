@@ -2,7 +2,7 @@ import React from "react";
 import "./Landing.css"
 import imageAdmin from "../images/20210912_020718-PhotoRoom-PhotoRoom.png"
 import imageCercel from "../images/cercel-PhotoRoom.png"
-import imageRomb from "../images/rombow-PhotoRoom.png"
+import imageRomb from "../images/purpelpng-PhotoRoom.png"
 import imageBlue from "../images/bluePointure-PhotoRoom.png"
 import Typed from "react-typed";
 import Fade from 'react-reveal/Fade';
