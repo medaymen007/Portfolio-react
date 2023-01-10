@@ -74,3 +74,10 @@
 .fixBar .github .space {
     margin-right: 28px;
 }
+
+@media(max-width:767px) {
+    .fixBar {
+        display: none;
+    }
+}
+
