@@ -68,7 +68,7 @@ function Skills(){
                     <h2>Our Skills :</h2>
                     <div className="glass">
                     <Flip Left>
-                    <h2>{items}</h2>
+                    <span style={{fontSize:"16px"}}>{items}</span>
                    </Flip>
                         <div className="perImage">
                             <img src={imgPng} alt=""  />
