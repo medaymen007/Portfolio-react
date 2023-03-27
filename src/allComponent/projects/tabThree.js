@@ -8,7 +8,7 @@ import projectReactThree from "../images/Capture d'écran 7 135257.png"
 function TabThree(){
     return(
         <div className="tabThree">
-            <a href="https://portfolio-react-medaymen007.vercel.app/" target="_blank">
+            <a href="https://github.com/medaymen007/Portfolio-react-one" target="_blank">
             <div className="image">
             <img src={projectReactOne} alt="" />
             </div>
