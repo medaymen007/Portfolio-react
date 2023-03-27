@@ -3,16 +3,19 @@ import MgProject from "../images/mg.jpg"
 import projectOne from "../images/projectOne.jpg"
 import projectTwo from "../images/projectTwo.jpg"
 import projectThree from "../images/projectThree.jpg"
-import projectFour from "../images/projectFour.png" 
+import projectFour from "../images/projectFour.png"
+ 
 
 
 
 function TabTwo(){
     return(
         <div className="tabTwo">            
-             <div className="image">
+           <a href="https://store-steel.vercel.app/" target="_blank">
+           <div className="image">
               <img src={MgProject} alt="" />
             </div>
+            </a>  
            <a href="https://medaymen007.github.io/Html-css-js-template-three/" target="_blank">
            <div className="image">
               <img src={projectThree} alt="" />
