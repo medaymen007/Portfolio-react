@@ -23,7 +23,7 @@ function Landing(){
           strings={[
             "Developer",
             "Coder",
-            "Front-end Dev",
+            "Front-End Dev",
           ]}
           typeSpeed={150}
           backSpeed={100}
