@@ -23,7 +23,7 @@ function Footer (){
                 <a target="_blank" href="https://github.com/medaymen007" >
                     <i class="fa-brands fa-github"></i>                
                 </a>
-                <a href="mailto:medaymenm24@gmail.com">
+                <a href="mailto:mejrimahmoudaymen@gmail.com">
                    <i class="fa-solid fa-envelope"></i>                
                 </a>
                 <a href="/" >
@@ -41,7 +41,7 @@ function Footer (){
               </div>                          
               <div className="phone">
                  <i class="fa-solid fa-phone"></i>
-                 <p>+216 58120448</p>
+                 <p>+216 99 890 913</p>
                </div>
 
           </div>

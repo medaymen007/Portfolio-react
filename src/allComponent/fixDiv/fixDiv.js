@@ -10,7 +10,7 @@ function FixBar(){
           </div>
 
           <div className="Email">
-            <a target="_blank" href="mailto:medaymenm24@gmail.com" rel="noreferrer"><i class="fa-solid fa-envelope"> <div className="space"></div> <p>E-mail</p></i></a>  
+            <a target="_blank" href="mailto:mejrimahmoudaymen@gmail.com" rel="noreferrer"><i class="fa-solid fa-envelope"> <div className="space"></div> <p>E-mail</p></i></a>  
           </div>
 
           <div className="github">

@@ -26,7 +26,7 @@ function Navbar(){
                <a href="https://www.linkedin.com/in/med-aymen-375164256/"><i class="fa-brands fa-linkedin"></i></a>  
            </div>
             <div className="Email">
-               <a href="mailto:medaymenm24@gmail.com"><i class="fa-solid fa-envelope"></i></a>  
+               <a href="mailto:mejrimahmoudaymen@gmail.com"><i class="fa-solid fa-envelope"></i></a>  
             </div>
 
             <div className="github">
